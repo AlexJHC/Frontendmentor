@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  color: hsl(0, 0%, 95%);
+}
+
+.main {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 920px;
+  height: 500px;
+  border-radius: 2%;
+}
+
+h1,
+h2,
+h3 {
+  font-family: 'Big Shoulders Display', cursive;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: hsl(0, 0%, 95%);
+  padding: 39px 0px;
+}
+
+.first,
+.second,
+.third {
+  padding: 45px 50px 45px 45px;
+}
+
+.first {
+  background: hsl(31, 77%, 52%);
+  border-radius: 2% 0 0 2%;
+}
+
+.second {
+  background: hsl(184, 100%, 22%);
+}
+
+.third {
+  background: hsl(179, 100%, 13%);
+  border-radius: 0 2% 2% 0;
+}
+
+button {
+  border: none;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  border-radius: 25px;
+  padding: 11px 30px;
+  margin-top: 86px;
+  border: 2px solid hsl(0, 0%, 95%);
+  cursor:pointer;
+  mix-blend-mode: screen;
+  }
+
+button:active {
+  background-color: transparent;
+  color: hsl(0, 0%, 95%);
+  border: 2px solid hsl(0, 0%, 95%);
+  mix-blend-mode: normal;
+} 
+
+@media (max-width: 950px) {
+  .main {
+    display: block;
+    width: 300px;
+  }
+
+  .first {  
+    border-radius: 2% 2% 0 0;
+    }
+
+  .third {  
+    border-radius: 0 0 2% 2%;
+  }
+
+  button {
+    margin-top: 25px;
+  }
+}
