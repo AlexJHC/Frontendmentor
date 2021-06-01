@@ -3,7 +3,7 @@ document.querySelector('.btn-emu').addEventListener("click", () => {
   return false
 })
 
-document.querySelector('.btn-emu').addEventListener("dbclick", () => {
+document.querySelector('body').addEventListener("dblclick", () => {
   return false
 })
 
