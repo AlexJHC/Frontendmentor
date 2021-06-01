@@ -1,2 +1,3 @@
 ## Article preview component master
-[link](./article-preview-component-master/index.html)
+[Article preview component master: Preview](./article-preview-component-master/index.html)
+[img](./article-preview-component-master/design/desktop-preview.jpg)
