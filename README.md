@@ -2,9 +2,9 @@
 
 [Article preview component master: Preview](https://alexjhc.github.io/Frontendmentor/article-preview-component-master/index.html)
 
-* [HTML](./article-preview-component-master/index.html)| 
-* [CSS](./article-preview-component-master/style.css)|
-* [JS](./article-preview-component-master/script.js)|
+* [HTML](./article-preview-component-master/index.html)
+* [CSS](./article-preview-component-master/style.css)
+* [JS](./article-preview-component-master/script.js)
 
 ![Article preview component master: image](./article-preview-component-master/design/desktop-preview.jpg)
 ______________________________________________________________________________
@@ -13,8 +13,18 @@ ______________________________________________________________________________
 
 [3 column preview card component main: Preview](https://alexjhc.github.io/Frontendmentor/3-column-preview-card-component-main/index.html)
 
-* [HTML](./3-column-preview-card-component-main/index.html)| 
-* [CSS](./3-column-preview-card-component-main/style.css)|
+* [HTML](./3-column-preview-card-component-main/index.html)
+* [CSS](./3-column-preview-card-component-main/style.css)
 
 ![3 column preview card component main: image](./3-column-preview-card-component-main/design/desktop-preview.jpg)
+______________________________________________________________________________
+
+## Base apparel coming soon master
+
+[base apparel coming soon master: Preview](https://alexjhc.github.io/Frontendmentor/base-apparel-coming-soon-master/index.html)
+
+* [HTML](./base-apparel-coming-soon-master/index.html)
+* [CSS](./base-apparel-coming-soon-master/style.css)
+
+![3 column preview card component main: image](./base-apparel-coming-soon-master/design/desktop-preview.jpg)
 ______________________________________________________________________________
