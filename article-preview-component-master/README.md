@@ -18,8 +18,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](./images/Article_scr2.jpg)
-![Desktop](./images/Article_scr.jpg)
+![Screenshot](https://github.com/AlexJHC/Frontendmentor/blob/main/article-preview-component-master/images/Article_scr.jpg)
 
 ### Links
 

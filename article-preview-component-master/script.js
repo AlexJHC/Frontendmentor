@@ -14,13 +14,13 @@ button.addEventListener("mouseenter", () => {
   return false
 })
 
-// Return color to social button, while mouse pointer live 
+// Return color to social button, while mouse pointer leave
 button.addEventListener("mouseleave", () => {
   document.querySelector('#path2').style.fill = "#6E8098"
   return false
 })
 
-// Close social menu if mouse click outside menu or button while menu show
+// Close social menu if mouse click outside menu and while menu show
 window.onclick = (e) => {
   if (!e.target.matches('div.btn-emu') 
   && !e.target.matches('svg')
