@@ -18,13 +18,13 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile](./images/Article_scr.jpg)
+![Mobile](./images/Article_scr2.jpg)
 ![Desktop](./images/Article_scr.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/html-css-js-0WIRfISPS)
-- Live Site URL: [Add live site URL here](https://alexjhc.github.io/Frontendmentor/article-preview-component-master/index.html)
+- Solution URL: [solution URL here](https://www.frontendmentor.io/solutions/html-css-js-0WIRfISPS)
+- Live Site URL: [live site URL here](https://alexjhc.github.io/Frontendmentor/article-preview-component-master/index.html)
 
 ### Built with
 
