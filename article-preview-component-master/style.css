@@ -29,9 +29,9 @@ h1 {
 }
 
 body {
-  font-family: 'Manrope', sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 0.813rem;
-  background: var(--Lg-Blue); 
+  background: var(--Lg-Blue);
 }
 
 .main-wrapper {
@@ -41,7 +41,7 @@ body {
   transform: translate(-50%, -50%);
   display: flex;
   background-color: white;
-  border-radius:  1rem;
+  border-radius: 1rem;
   box-shadow: 0 2rem 3rem rgba(109, 127, 151, 0.4);
 }
 
@@ -54,7 +54,7 @@ body {
   border-bottom-left-radius: 1rem;
 }
 
-.content  {
+.content {
   margin: 1.5rem 2.5rem;
   min-width: 25rem;
   max-width: 25rem;
@@ -68,8 +68,8 @@ body {
   justify-content: center;
 }
 
-.info p:nth-child(2){
-  flex: 1
+.info p:nth-child(2) {
+  flex: 1;
 }
 
 .logo {
@@ -89,8 +89,8 @@ body {
 
 .btn-emu:hover {
   box-shadow: 0 0 0 0.55rem var(--Dd-Blue);
-  background-color: var(--Dd-Blue); 
-} 
+  background-color: var(--Dd-Blue);
+}
 
 .social {
   min-width: 15.5rem;
@@ -126,13 +126,13 @@ body {
 @media (max-width: 950px) {
   h1 {
     font-weight: bold;
-    font-size: 1.0rem;
+    font-size: 1rem;
     margin-top: 1.5rem;
   }
 
-  .text { 
+  .text {
     word-spacing: normal;
-    margin: 1.35rem auto; 
+    margin: 1.35rem auto;
     text-align: left;
   }
 
@@ -147,11 +147,10 @@ body {
     border-top-right-radius: 1rem;
   }
 
-  .content  {
+  .content {
     margin: 0.5rem 2.2rem;
     font-weight: 500;
     min-width: 0;
-    
   }
 
   .info {
@@ -174,8 +173,8 @@ body {
     justify-content: right;
     gap: 1rem;
     display: hide;
-  } 
-  
+  }
+
   .social p:first-child {
     margin-left: 2rem;
   }
@@ -187,7 +186,4 @@ body {
   .social::after {
     display: none;
   }
-
 }
-
-
