@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React_test/static/css/main.2fbc43af.chunk.css",
+    "main.js": "/React_test/static/js/main.102282a1.chunk.js",
+    "main.js.map": "/React_test/static/js/main.102282a1.chunk.js.map",
+    "runtime-main.js": "/React_test/static/js/runtime-main.d2f28cb9.js",
+    "runtime-main.js.map": "/React_test/static/js/runtime-main.d2f28cb9.js.map",
+    "static/js/2.2eea49c3.chunk.js": "/React_test/static/js/2.2eea49c3.chunk.js",
+    "static/js/2.2eea49c3.chunk.js.map": "/React_test/static/js/2.2eea49c3.chunk.js.map",
+    "static/js/3.b79bb2a4.chunk.js": "/React_test/static/js/3.b79bb2a4.chunk.js",
+    "static/js/3.b79bb2a4.chunk.js.map": "/React_test/static/js/3.b79bb2a4.chunk.js.map",
+    "index.html": "/React_test/index.html",
+    "static/css/main.2fbc43af.chunk.css.map": "/React_test/static/css/main.2fbc43af.chunk.css.map",
+    "static/js/2.2eea49c3.chunk.js.LICENSE.txt": "/React_test/static/js/2.2eea49c3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/React_test/static/media/pattern-hills.815d688f.svg",
+    "static/media/icon-facebook.a9208377.svg": "/React_test/static/media/icon-facebook.a9208377.svg",
+    "static/media/icon-instagram.b94ff26a.svg": "/React_test/static/media/icon-instagram.b94ff26a.svg",
+    "static/media/icon-pinterest.ea0db8e7.svg": "/React_test/static/media/icon-pinterest.ea0db8e7.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2f28cb9.js",
+    "static/js/2.2eea49c3.chunk.js",
+    "static/css/main.2fbc43af.chunk.css",
+    "static/js/main.102282a1.chunk.js"
+  ]
+}
