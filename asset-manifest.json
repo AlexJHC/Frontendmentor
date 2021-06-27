@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/css/main.0faea257.chunk.css",
-    "main.js": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/js/main.8bcb838d.chunk.js",
-    "main.js.map": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/js/main.8bcb838d.chunk.js.map",
-    "runtime-main.js": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/js/runtime-main.95078f27.js",
-    "runtime-main.js.map": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/js/runtime-main.95078f27.js.map",
-    "static/js/2.2eea49c3.chunk.js": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/js/2.2eea49c3.chunk.js",
-    "static/js/2.2eea49c3.chunk.js.map": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/js/2.2eea49c3.chunk.js.map",
-    "static/js/3.b79bb2a4.chunk.js": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/js/3.b79bb2a4.chunk.js",
-    "static/js/3.b79bb2a4.chunk.js.map": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/js/3.b79bb2a4.chunk.js.map",
-    "index.html": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/index.html",
-    "static/css/main.0faea257.chunk.css.map": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/css/main.0faea257.chunk.css.map",
-    "static/js/2.2eea49c3.chunk.js.LICENSE.txt": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/js/2.2eea49c3.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/media/pattern-hills.815d688f.svg",
-    "static/media/icon-facebook.a9208377.svg": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/media/icon-facebook.a9208377.svg",
-    "static/media/icon-instagram.b94ff26a.svg": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/media/icon-instagram.b94ff26a.svg",
-    "static/media/icon-pinterest.ea0db8e7.svg": "/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/media/icon-pinterest.ea0db8e7.svg"
+    "main.css": "/Frontendmentor/launch-countdown-timer-main/static/css/main.80856a3d.chunk.css",
+    "main.js": "/Frontendmentor/launch-countdown-timer-main/static/js/main.8bcb838d.chunk.js",
+    "main.js.map": "/Frontendmentor/launch-countdown-timer-main/static/js/main.8bcb838d.chunk.js.map",
+    "runtime-main.js": "/Frontendmentor/launch-countdown-timer-main/static/js/runtime-main.9e6eb2ba.js",
+    "runtime-main.js.map": "/Frontendmentor/launch-countdown-timer-main/static/js/runtime-main.9e6eb2ba.js.map",
+    "static/js/2.2eea49c3.chunk.js": "/Frontendmentor/launch-countdown-timer-main/static/js/2.2eea49c3.chunk.js",
+    "static/js/2.2eea49c3.chunk.js.map": "/Frontendmentor/launch-countdown-timer-main/static/js/2.2eea49c3.chunk.js.map",
+    "static/js/3.b79bb2a4.chunk.js": "/Frontendmentor/launch-countdown-timer-main/static/js/3.b79bb2a4.chunk.js",
+    "static/js/3.b79bb2a4.chunk.js.map": "/Frontendmentor/launch-countdown-timer-main/static/js/3.b79bb2a4.chunk.js.map",
+    "index.html": "/Frontendmentor/launch-countdown-timer-main/index.html",
+    "static/css/main.80856a3d.chunk.css.map": "/Frontendmentor/launch-countdown-timer-main/static/css/main.80856a3d.chunk.css.map",
+    "static/js/2.2eea49c3.chunk.js.LICENSE.txt": "/Frontendmentor/launch-countdown-timer-main/static/js/2.2eea49c3.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/Frontendmentor/launch-countdown-timer-main/static/media/pattern-hills.815d688f.svg",
+    "static/media/icon-facebook.a9208377.svg": "/Frontendmentor/launch-countdown-timer-main/static/media/icon-facebook.a9208377.svg",
+    "static/media/icon-instagram.b94ff26a.svg": "/Frontendmentor/launch-countdown-timer-main/static/media/icon-instagram.b94ff26a.svg",
+    "static/media/icon-pinterest.ea0db8e7.svg": "/Frontendmentor/launch-countdown-timer-main/static/media/icon-pinterest.ea0db8e7.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.95078f27.js",
+    "static/js/runtime-main.9e6eb2ba.js",
     "static/js/2.2eea49c3.chunk.js",
-    "static/css/main.0faea257.chunk.css",
+    "static/css/main.80856a3d.chunk.css",
     "static/js/main.8bcb838d.chunk.js"
   ]
 }
