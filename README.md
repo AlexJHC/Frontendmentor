@@ -1,5 +1,18 @@
 ## Article preview component master
 
+[Launch countdown timer: Preview](https://alexjhc.github.io/Frontendmentor/launch-countdown-timer-main/index.html)
+
+- [Repository](https://github.com/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main)
+- [HTML](https://github.com/AlexJHC/Frontendmentor/blob/main/launch-countdown-timer-main/index.html)
+- [CSS](https://github.com/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/css)
+- [JS](https://github.com/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/js)
+
+![Article preview component master: image](https://github.com/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/media/desktop-preview.jpg)
+
+---
+
+## Article preview component master
+
 [Article preview component master: Preview](https://alexjhc.github.io/Frontendmentor/article-preview-component-master/index.html)
 
 - [Repository](https://github.com/AlexJHC/Frontendmentor/tree/main/article-preview-component-master)
