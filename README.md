@@ -7,7 +7,7 @@
 - [CSS](https://github.com/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/css)
 - [JS](https://github.com/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/js)
 
-![Article preview component master: image](https://github.com/AlexJHC/Frontendmentor/tree/main/launch-countdown-timer-main/static/media/desktop-preview.jpg)
+![Article preview component master: image](./launch-countdown-timer-main/static/media/desktop-preview.jpg)
 
 ---
 

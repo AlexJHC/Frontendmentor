@@ -19,7 +19,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Screenshot](./static/media/launch_scr)
+![Screenshot](./static/media/launch_scr.jpg)
 
 ### Links
 
