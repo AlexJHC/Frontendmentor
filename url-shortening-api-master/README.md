@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)
-- Live Site URL: [Add live site URL here](https://alexjhc.github.io/Frontendmentor/url-shortening-api-master/index.html)
+- Solution URL: [Solution URL](https://www.frontendmentor.io/challenges/url-shortening-api-landing-page-2ce3ob-G)
+- Live Site URL: [Live site URL](https://alexjhc.github.io/Frontendmentor/url-shortening-api-master/index.html)
 
 ## My process
 
