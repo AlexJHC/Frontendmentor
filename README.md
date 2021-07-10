@@ -1,3 +1,16 @@
+## Shortly URL shortening API Challenge
+
+[Launch countdown timer: Preview](https://alexjhc.github.io/Frontendmentor/url-shortening-api-master/index.html)
+
+- [Repository](https://github.com/AlexJHC/Frontendmentor/tree/main/url-shortening-api-master)
+- [HTML](https://github.com/AlexJHC/Frontendmentor/blob/main/url-shortening-api-master/index.html)
+- [CSS](https://github.com/AlexJHC/Frontendmentor/tree/main/url-shortening-api-master/static/css)
+- [JS](https://github.com/AlexJHC/Frontendmentor/tree/main/url-shortening-api-master/static/js)
+
+![Article preview component master: image](./url-shortening-api-master/static/media/desktop-preview.jpg)
+
+---
+
 ## Article preview component master
 
 [Launch countdown timer: Preview](https://alexjhc.github.io/Frontendmentor/launch-countdown-timer-main/index.html)
