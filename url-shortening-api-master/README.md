@@ -24,8 +24,7 @@ Users should be able to:
 
 ![Screenshot](./static/media/scr1.jpg)
 ![Screenshot](./static/media/scr2.jpg)
-![Screenshot](./static/media/scr3.jpg)
-![Screenshot](./static/media/scr4.jpg)
+![Screenshot](./static/media/scr5.jpg)
 
 ### Links
 
