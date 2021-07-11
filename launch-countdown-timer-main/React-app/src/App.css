@@ -1,0 +1,309 @@
+/* Root rules */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Hat Text", sans-serif;
+  font-size: 0.875rem;
+}
+:root {
+  --DarkBlue: hsl(236, 21%, 26%);
+  --VDarkBlue: hsl(234, 17%, 12%);
+}
+
+/* Text */
+h1 {
+  color: White;
+  font-weight: bold;
+  font-size: 1.375rem;
+  letter-spacing: 0.34em;
+  line-height: 1.813rem;
+  font-style: normal;
+}
+
+.flipText {
+  color: hsl(237, 18%, 59%);
+  letter-spacing: 0.4em;
+}
+
+/* Main app container */
+.main {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("./img/pattern-hills.svg"), url("./img/bg-stars.svg"),
+    var(--VDarkBlue);
+  background-repeat: repeat-x;
+  background-position: 0% 100%;
+}
+
+/* Flip clock */
+
+.flipConteiner {
+  display: flex;
+  flex-direction: column;
+  gap: 15%;
+}
+
+.flipClock {
+  display: flex;
+  justify-content: center;
+  gap: 7%;
+}
+
+.flipUnitContainer {
+  display: block;
+  position: relative;
+  width: 9.25rem;
+  height: 8.75rem;
+  perspective-origin: 50% 50%;
+  perspective: 18.75rem;
+  background-color: var(--DarkBlue);
+  border-radius: 3px;
+  box-shadow: 0px 10px 20px -10px black;
+}
+
+.flipUnitContainer::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: var(--VDarkBlue);
+  transform: translateY(570%) translateX(-700%);
+  border-radius: 50%;
+}
+
+.flipUnitContainer::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: var(--VDarkBlue);
+  transform: translateY(-660%) translateX(600%);
+  border-radius: 50%;
+}
+
+.upperCard,
+.lowerCard {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+.upperCard span,
+.lowerCard span {
+  font-size: 5rem;
+  color: hsl(345, 95%, 68%);
+}
+
+.upperCard {
+  align-items: flex-end;
+  border-bottom: 0.5px solid var(--VDarkBlue);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+}
+.upperCard span {
+  transform: translateY(50%);
+}
+
+.lowerCard {
+  align-items: flex-start;
+  border-top: 0.5px solid var(--VDarkBlue);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+}
+.lowerCard span {
+  transform: translateY(-50%);
+}
+
+.flipCard {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+
+.flipCard.unfold:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: var(--VDarkBlue);
+  transform: translateY(-50%) translateX(-650%);
+  border-radius: 50%;
+}
+
+.flipCard span {
+  font-size: 5rem;
+  color: hsl(345, 95%, 68%);
+}
+.flipCard.unfold {
+  top: 50%;
+  align-items: flex-start;
+  transform-origin: 50% 0%;
+  transform: rotateX(180deg);
+  background-color: var(--DarkBlue);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  border-top: 0.5px solid var(--VDarkBlue);
+}
+.flipCard.unfold span {
+  transform: translateY(-50%);
+}
+.flipCard.fold {
+  top: 0%;
+  align-items: flex-end;
+  transform-origin: 50% 100%;
+  transform: rotateX(0deg);
+  background-color: var(--DarkBlue);
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  border-bottom: 0.5px solid var(--VDarkBlue);
+}
+.flipCard.fold span {
+  transform: translateY(50%);
+}
+
+.flipCard.fold:before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: var(--VDarkBlue);
+  z-index: 0;
+  transform: translateY(60%) translateX(-650%);
+  border-radius: 50%;
+}
+
+.fold {
+  -webkit-animation: fold 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s 1
+    normal forwards;
+  animation: fold 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s 1 normal
+    forwards;
+  transform-style: preserve-3d;
+}
+
+.unfold {
+  -webkit-animation: unfold 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s 1
+    normal forwards;
+  animation: unfold 0.6s cubic-bezier(0.455, 0.03, 0.515, 0.955) 0s 1 normal
+    forwards;
+  transform-style: preserve-3d;
+}
+
+@-webkit-keyframes fold {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(-180deg);
+  }
+}
+
+@keyframes fold {
+  0% {
+    transform: rotateX(0deg);
+  }
+  100% {
+    transform: rotateX(-180deg);
+  }
+}
+@-webkit-keyframes unfold {
+  0% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+@keyframes unfold {
+  0% {
+    transform: rotateX(180deg);
+  }
+  100% {
+    transform: rotateX(0deg);
+  }
+}
+
+/* Social media icon decoration */
+footer {
+  margin-top: 8%;
+}
+
+ul {
+  min-width: 15rem;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+img:hover {
+  filter: invert(52%) sepia(10%) saturate(3536%) hue-rotate(297deg)
+    brightness(101%) contrast(97%);
+}
+
+@media (max-width: 41.875rem) {
+  .flipUnitContainer {
+    width: 4.375rem;
+    height: 4.188rem;
+  }
+
+  .upperCard span,
+  .lowerCard span,
+  .flipCard span {
+    font-size: 2.7rem;
+  }
+
+  .flipCard.fold:before,
+  .flipCard.unfold:before {
+    display: none;
+  }
+
+  .flipText {
+    font-size: 0.6rem;
+  }
+
+  .main {
+    background-position: 0% 100%;
+  }
+
+  .upperCard,
+  .lowerCard,
+  .flipCard.unfold,
+  .flipCard.fold {
+    border-top: 0.1px solid var(--VDarkBlue);
+  }
+
+  .flipUnitContainer::after {
+    width: 7px;
+    height: 7px;
+    transform: translateY(-450%) translateX(400%);
+    border-radius: 50%;
+  }
+
+  .flipUnitContainer::before {
+    width: 7px;
+    height: 7px;
+    z-index: 1;
+    transform: translateY(370%) translateX(-480%);
+  }
+}
