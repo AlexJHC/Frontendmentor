@@ -1,0 +1,50 @@
+/* Root rules */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+}
+
+:root {
+  --Gray: hsl(0, 0%, 75%);
+  --Cyan: hsl(180, 66%, 49%);
+  --DViolet: hsl(257, 27%, 26%);
+  --GViolet: hsl(257, 7%, 63%);
+  --VeryDViolet: hsl(260, 8%, 14%);
+  --Red: hsl(0, 87%, 67%);
+  --VeryDBlue: hsl(255, 11%, 22%);
+}
+
+/* Blue highlight on touch screen */
+div,
+input,
+textarea,
+button,
+select,
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 0.2em;
+}
+
+body::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: var(--Cyan);
+}
+
+@media screen and (min-width: 650px) {
+  body {
+    overflow: inherit !important;
+  }
+}

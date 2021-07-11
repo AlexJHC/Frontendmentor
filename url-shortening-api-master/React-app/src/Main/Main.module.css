@@ -1,0 +1,252 @@
+/* Main */
+section {
+  background: rgb(94%, 95%, 97%);
+}
+
+main {
+  max-width: 69.188rem;
+  margin: 12% auto 0;
+}
+
+/* Text & decoration */
+h2 {
+  font-weight: bold;
+  font-size: 2.438rem;
+}
+
+h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.cardContainer p {
+  font-weight: lighter;
+  font-size: 1.1rem;
+  margin: 4% auto;
+}
+
+.text p {
+  width: 60%;
+  margin-bottom: 1.5em;
+}
+
+.btn {
+  font-size: 0.938rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: var(--Cyan);
+  border-radius: 0.7rem;
+  width: 6.563rem;
+  height: 2.5rem;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out;
+}
+
+.copied {
+  background-color: var(--DViolet);
+}
+
+.btn:active {
+  background-color: hsl(180, 58%, 70%);
+}
+
+/* Text Area */
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Form 'Shorten it' */
+.form {
+  min-height: 7em;
+  display: flex;
+  align-self: center;
+  gap: 1.8%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: url("./img/bg-shorten-desktop.svg"), var(--DViolet);
+  background-repeat: no-repeat;
+  background-size: cover;
+  transform: translateY(-45%);
+  border-radius: 0.5rem;
+}
+
+main ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+
+main ul li {
+  padding: 0 1em;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2%;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-bottom: 2%;
+}
+
+.fisrt {
+  flex: 1;
+}
+
+input {
+  flex: 1;
+  max-width: 80%;
+  height: 2.5rem;
+  position: relative;
+  transition: color 200ms ease-in;
+}
+
+.warning {
+  color: red;
+  position: absolute;
+  font-size: 1rem;
+  left: 4.5%;
+  bottom: 12%;
+  opacity: 0;
+  transition: opacity 200ms ease-in;
+}
+
+.error {
+  outline-color: red;
+  border-color: red;
+  opacity: 1;
+}
+
+/* Cards */
+.card {
+  display: flex;
+  position: relative;
+}
+
+.card div:first-child {
+  transform: translateY(-20%);
+}
+
+.line {
+  display: block;
+  transform: translate(50%, -2400%);
+  max-width: 35em;
+  min-height: 0.5em;
+  background-color: var(--Cyan);
+  position: static;
+}
+
+.card div:last-child {
+  transform: translateY(20%);
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background: white;
+  margin: 8% auto;
+  padding: 0 3%;
+  max-width: 31%;
+  border-radius: 1rem;
+  position: relative;
+  z-index: 2;
+}
+
+.card img {
+  width: 20%;
+  background: var(--DViolet);
+  border: 0.5em solid var(--DViolet);
+  border-radius: 50%;
+  transform: translate(20%, -50%);
+}
+
+@media screen and (max-width: 1200px) {
+  .card {
+    flex-direction: column;
+  }
+
+  .card div:first-child,
+  .card div:last-child {
+    transform: translateY(0);
+  }
+
+  .cardContainer {
+    margin: 5% auto;
+    max-width: 45%;
+  }
+
+  .line {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  main {
+    max-width: 100%;
+    margin: 25% auto 0;
+  }
+
+  .form {
+    margin: 0 auto;
+    width: 95%;
+    min-height: 7em;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 1em;
+    background: url("./img/bg-shorten-mobile.svg"), var(--DViolet);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  input {
+    flex: 0;
+    min-width: 90%;
+    min-height: 3rem;
+  }
+
+  .warning {
+    bottom: 0%;
+    transform: translateY(90%);
+  }
+
+  .btn {
+    width: 85%;
+    min-height: 2rem;
+  }
+
+  main ul {
+    height: auto;
+    flex-direction: column;
+  }
+
+  main ul li {
+    padding: 0.5em 0.5em;
+    height: auto;
+    flex-direction: column;
+    min-width: 95%;
+    gap: 0.3em;
+    flex-wrap: wrap;
+  }
+
+  .fisrt {
+    height: auto;
+    width: 99%;
+    flex-wrap: wrap;
+    overflow-wrap: break-word;
+  }
+
+  .text,
+  .text p,
+  .card,
+  .cardContainer {
+    min-width: 95%;
+  }
+}

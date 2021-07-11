@@ -1,0 +1,168 @@
+/* Main container */
+footer {
+  background-color: black;
+  color: white;
+}
+
+/* Text and decoration */
+.promo h2 {
+  color: white;
+}
+
+.footer_nav ul {
+  list-style: none;
+}
+
+.footer_nav h4 {
+  margin-bottom: 10%;
+}
+
+.footer_nav li {
+  margin-bottom: 5%;
+  color: var(--Gray);
+  cursor: pointer;
+}
+
+.footer_nav li:hover {
+  color: var(--Cyan);
+}
+
+.btn {
+  font-size: 0.938rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  background-color: var(--Cyan);
+  border-radius: 0.7rem;
+  width: 6.563rem;
+  height: 2.5rem;
+  cursor: pointer;
+  transition: background-color 200ms ease-in-out;
+}
+
+.btn:active {
+  background-color: hsl(180, 58%, 70%);
+}
+
+button a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.938rem;
+  font-weight: bold;
+}
+
+/* Promo container */
+.promo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 12em;
+  gap: 1em;
+  background: url("./img/bg-boost-desktop.svg"), var(--DViolet);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.promo button {
+  border-radius: 2rem;
+  min-width: 12%;
+}
+
+/* Main wrapper container */
+.wrapper {
+  max-width: 69.188rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2%;
+  background-color: black;
+  padding: 4% 0;
+}
+
+/* Logo */
+.logoHolder {
+  flex: 1;
+  position: relative;
+}
+
+.logo {
+  filter: invert(100%) sepia(5%) saturate(7455%) hue-rotate(169deg)
+    brightness(124%) contrast(96%);
+}
+
+/* Nav links */
+.footer_nav {
+  text-align: start;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 10%;
+  flex: 2;
+}
+
+/* Social buttons */
+.social {
+  display: flex;
+  gap: 5%;
+  flex: 1;
+  justify-content: center;
+}
+
+.social img:hover {
+  filter: invert(60%) sepia(73%) saturate(441%) hue-rotate(131deg)
+    brightness(165%) contrast(88%);
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1200px) {
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+  }
+
+  .social {
+    gap: 30%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .promo {
+    min-width: 95%;
+    background: url("./img/bg-boost-mobile.svg"), var(--DViolet);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .promo h2 {
+    font-size: 1.7rem;
+  }
+
+  .wrapper {
+    gap: 1em;
+  }
+
+  .footer_nav {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 1em;
+  }
+
+  .social {
+    gap: 15%;
+    margin-bottom: 1.3em;
+  }
+
+  .logoHolder {
+    margin-top: 1.3em;
+  }
+}
